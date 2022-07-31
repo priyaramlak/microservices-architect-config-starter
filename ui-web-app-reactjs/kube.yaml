@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name:  react-ui
-        image:  priyaramar/ui
+        image:  priyaramar/ui:ui
         ports:
         - containerPort:  8080
           name:  react-ui
